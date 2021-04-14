@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
-require_relative "../environment"
+require_relative '../environment.rb'
 
 
 puts "hi"
+
+CLI.new.start
